@@ -1,0 +1,27 @@
+{
+  "name": "pain-au-chocolat",
+  "version": "1.0.0",
+  "description": "the real one",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel --stage 0 src/ --out-dir lib/",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bloodyowl/pain-au-chocolat.git"
+  },
+  "keywords": [
+    "pain-au-chocolat"
+  ],
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/pain-au-chocolat/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/pain-au-chocolat#readme",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
